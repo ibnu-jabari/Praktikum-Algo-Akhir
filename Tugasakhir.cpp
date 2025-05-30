@@ -255,9 +255,11 @@ int main() {
                 if (pil == 1) {
                     urutkanNamaHabit();
                     cout << "Habit berhasil diurutkan berdasarkan nama.\n";
+                    tampilkanHabit();
                 } else if (pil == 2) {
                     urutkanTanggalHabit();
                     cout << "Habit berhasil diurutkan berdasarkan tanggal.\n";
+                    tampilkanHabit();
                 } else {
                     cout << "Pilihan tidak valid. Silakan coba lagi.\n";
                 }

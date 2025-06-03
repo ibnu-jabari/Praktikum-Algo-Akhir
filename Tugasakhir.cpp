@@ -189,7 +189,7 @@ int main() {
     FILE* habits;
     habits = fopen("habits.txt", "r");
     if (habits == NULL) {
-        cout << "Gagal membuka file habits.txt. Membuat file baru.\n";
+        cout << "Gagal membuka file habits.txt\n";
         habits = fopen("habits.txt", "w");
         fclose(habits);
     } else {
